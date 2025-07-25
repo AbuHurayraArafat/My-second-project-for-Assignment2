@@ -7,5 +7,62 @@
 </head>
 <body>
     
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#f7f9fc]">
+
+    <!-- 🌸 Navbar -->
+    <nav class="flex items-center justify-between px-6 md:px-20 py-4">
+      <!-- Logo -->
+      <div class="text-xl font-bold text-orange-600 flex items-center gap-1">
+        <img src="assets/logo.png" alt="Logo" class="w-6 h-6" />
+        <span>faugei</span>
+      </div>
+
+      <!-- Menu Items (hidden in mobile) -->
+      <ul class="hidden md:flex gap-6 text-gray-700 font-medium">
+        <li class="hover:text-black cursor-pointer">Home</li>
+        <li class="hover:text-black cursor-pointer">Shop</li>
+        <li class="hover:text-black cursor-pointer">About us</li>
+      </ul>
+
+      <!-- Cart -->
+      <div class="text-black font-medium flex items-center gap-1">
+        🛒 <span>Cart ($56)</span>
+      </div>
+    </nav>
+
+    <!-- 🌸 Hero Section -->
+    <section class="px-6 md:px-20 py-12 flex flex-col md:flex-row items-center justify-between gap-8">
+      <!-- Text -->
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight text-black">
+          ALWAYS <span class="text-[#f26522]">FRESH</span><br />
+          <span class="text-[#f26522]">FLOWERS</span>
+        </h1>
+        <p class="mt-4 text-gray-600 text-base leading-relaxed">
+          Indulge your senses with the beauty and fragrance of our fresh flower shop.
+          From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+          that are perfect for any occasion.
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+        <img src="assets/hero-flower.png" alt="Fresh Flowers" class="max-w-full h-auto" />
+      </div>
+    </section>
+
+  </body>
+</html>
+
+
+    
 </body>
 </html>
